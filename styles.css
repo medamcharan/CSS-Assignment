@@ -1,0 +1,134 @@
+/* Box Model */
+.box-model {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+/* Inline Element */
+.inline-element {
+    display: inline;
+}
+
+/* Block Element */
+.block-element {
+    display: block;
+}
+
+/* Inline-Block Element */
+.inline-block-element {
+    display: inline-block;
+}
+
+..center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.centered {
+    border: 1px solid black;
+    padding: 20px;
+    width: 100px;
+          height: 100px;
+          background-color: lightblue;
+      }
+}
+/* Text Color */
+.text-color {
+    color: blue;
+}
+* Text Styles */
+.bold-text {
+    font-weight: bold;
+}
+.italic-text {
+    font-style: italic;
+}
+.underlined-text {
+    text-decoration: underline;
+}
+
+/* Positioning */
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.sticky {
+    position: sticky;
+    top: 20px;
+}
+
+/* Hover Effect */
+.hover-link:hover {
+    color: red;
+}
+
+/* CSS Transition */
+.transition-box {
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+}
+.transition-box:hover {
+    background-color: lightcoral;
+}
+
+/* CSS Animation */
+@keyframes example {
+    0%   { background-color: lightblue; }
+    100% { background-color: lightcoral; }
+}
+.animation-box {
+    animation: example 2s infinite;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Responsive Image */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
